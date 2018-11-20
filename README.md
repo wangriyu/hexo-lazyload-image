@@ -10,6 +10,22 @@ All the lazy-load images only shows up when they are within current viewport.
 
 ```bash
 $ npm install hexo-lazyload-image --save
+$ cover this repository files to node_modules/hexo-lazyload-image
+```
+when add fancybox3:
+
+```bash
+$(".fancy-ctn").fancybox({
+  loop: true,
+  touch: false,
+  toolbar: true,
+  wheel: false,
+  buttons: [
+    "fullScreen",
+    "thumbs",
+    "close"
+  ],
+});
 ```
 
 ## Usage
@@ -42,9 +58,7 @@ I've test it manually with some popular themes like landscape(official), materia
 Enjoy it!
 ## Demo
 
-[troyyang.com](http://troyyang.com)
-
-![image](https://images.troyyang.com/2017-7-30-lazy-load.gif)
+[blog.wangriyu.wang](http://blog.wangriyu.wang)
 
 ## License
 
